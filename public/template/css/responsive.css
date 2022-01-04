@@ -1,0 +1,58 @@
+/*
+========================
+Tablat Device Responsive
+========================
+*/
+
+@media (max-width:991px){
+
+    html{
+        font-size: 55%;
+    }
+    
+    .header{
+        padding: 1.5rem 2rem;
+    }
+
+    section{
+        padding: 2rem;
+    }
+}
+
+@media (max-width:768px){
+
+    /*
+    =============================
+    Home Tablat Device Responsive
+    =============================
+    */
+
+    .home{
+        background-position: left;
+        justify-content: center;
+        text-align: center;
+    }
+
+    .home .content h3{
+        font-size: 4.5rem;
+    }
+
+    .home .content p{
+        font-size: 1.5rem;
+    }
+    
+}
+
+/*
+========================
+Mobile Device Responsive
+========================
+*/
+
+@media (max-width:450px){
+    
+    html{
+        font-size: 50%;
+    }
+
+}

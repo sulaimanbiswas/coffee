@@ -1,0 +1,352 @@
+
+
+/*
+==================
+Home Section Style
+==================
+*/
+
+.home{
+    min-height: 100vh;
+    display: flex;
+    align-items: center;
+    background: url(../images/home-img.jpeg);
+    background-size: cover;
+    background-position: center;
+}
+
+.home .content{
+    max-width: 60rem;
+}
+
+.home .content h3{
+    font-size: 6rem;
+    text-transform: uppercase;
+    color: #fff;
+}
+
+.home .content p{
+    font-size: 2rem;
+    font-weight: lighter;
+    line-height: 1.8;
+    padding: 1rem 0;
+    color: #eee;
+}
+
+/*
+===================
+About Section Style
+===================
+*/
+
+.about .row{
+    display: flex;
+    align-items: center;
+    background: var(--black);
+    flex-wrap: wrap;
+}
+
+.about .row .image{
+    flex: 1 1 45rem;
+}
+
+.about .row .image img{
+    width: 100%;
+}
+
+.about .row .content{
+    flex: 1 1 45rem;
+    padding: 2rem;
+}
+
+.about .row .content h3{
+    font-size: 3rem;
+    color: #fff;
+}
+
+.about .row .content p{
+    font-size: 1.6rem;
+    color: #ccc;
+    padding: 1rem;
+    line-height: 1.8;
+    text-align: justify;
+}
+
+/*
+==================
+Menu Section Style
+==================
+*/
+
+.menu .box-container .box{
+    padding: 5rem;
+    text-align: center;
+    border: var(--border);
+}
+
+.menu .box-container .box img{
+    height: 10rem;
+}
+
+.menu .box-container .box:hover img{
+    transform: scale(1.2);
+    -webkit-transform: scale(1.2);
+    -moz-transform: scale(1.2);
+    -ms-transform: scale(1.2);
+    -o-transform: scale(1.2);
+}
+
+.menu .box-container .box h3{
+    color: #ccc;
+    font-size: 2rem;
+    padding: 1rem 0;
+}
+
+.menu .box-container .box .price{
+    color: #fff;
+    font-size: 2.5rem;
+    padding: .5rem 0;
+}
+
+.menu .box-container .box .price span{
+    font-size: 1.5rem;
+    font-weight: lighter;
+    text-decoration: line-through;
+}
+
+
+.menu .box-container .box:hover{
+    background: #fff;
+}
+
+.menu .box-container .box:hover > *{
+    color: var(--black);
+}
+
+/*
+======================
+Products Section Style
+======================
+*/
+
+.products .box-container{
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(30rem, 1fr));
+    gap: 1.5rem;
+}
+
+.products .box-container .box{
+    text-align: center;
+    border: var(--border);
+    padding: 2rem;
+}
+
+.products .box-container .box .icons a{
+    height: 5rem;
+    width: 5rem;
+    line-height: 5rem;
+    font-size: 2rem;
+    border: var(--border);
+    color: #fff;
+}
+
+.products .box-container .box .icons a:hover{
+    background: var(--main-color);
+}
+
+.products .box-container .box .image{
+    padding: 2.5rem 0;
+}
+
+.products .box-container .box .image img{
+    height: 25rem;
+}
+
+.products .box-container .box .content h3{
+    color: #fff;
+    font-size: 2.5rem;
+}
+
+.products .box-container .box .content h3 .stars{
+    padding: 1.5rem;
+}
+
+.products .box-container .box .content .stars i{
+    font-size: 1.7rem;
+    color: var(--main-color);
+}
+
+.products .box-container .box .content .price{
+    color: #fff;
+    font-size: 2.5rem;
+}
+
+.products .box-container .box .content .price span{
+    font-size: 1.5rem;
+    font-weight: lighter;
+    text-decoration: line-through;
+}
+
+/*
+====================
+Review Section Style
+====================
+*/
+
+.review .box-container .box{
+    border: var(--border);
+    text-align: center;
+    padding: 3rem 2rem;
+}
+
+.review .box-container .box p{
+font-size: 1.5rem;
+line-height: 1.8;
+color: #ccc;
+padding: 2rem 0;
+}
+.review .box-container .box .user{
+    width: 7rem;
+    width: 7rem;
+    border-radius: 50%;
+    -webkit-border-radius: 50%;
+    -moz-border-radius: 50%;
+    -ms-border-radius: 50%;
+    -o-border-radius: 50%;
+    object-fit: cover;
+}
+
+.review .box-container .box h3{
+    padding: 1rem 0;
+    font-size: 2rem;
+    color: #fff;
+}
+
+.review .box-container .box .stars i{
+    font-size: 1.5rem;
+    color: var(--main-color);
+}
+
+/*
+===================
+Blogs Section Style
+===================
+*/
+
+.blogs .box-container .box{
+    border: var(--border);
+}
+
+.blogs .box-container .box .image{
+    height: 25rem;
+    overflow: hidden;
+    width: 100%;
+}
+
+.blogs .box-container .box .image img{
+    height: 100%;
+    object-fit: cover;
+    width: 100%;
+}
+
+.blogs .box-container .box:hover .image img{
+    transform: scale(1.2);
+    -webkit-transform: scale(1.2);
+    -moz-transform: scale(1.2);
+    -ms-transform: scale(1.2);
+    -o-transform: scale(1.2);
+}
+.blogs .box-container .box .content{
+    padding: 2rem;
+}
+
+.blogs .box-container .box .content .title{
+    font-size: 2.5rem;
+    line-height: 1.5;
+    color: #fff;
+}
+
+.blogs .box-container .box .content .title:hover{
+    color: var(--main-color);
+}
+
+.blogs .box-container .box .content span{
+    color: var(--main-color);
+    display: block;
+    padding-top: 1rem;
+    font-size: 2rem;
+}
+
+.blogs .box-container .box .content p{
+    font-size: 1.6rem;
+    line-height: 1.8;
+    color: #ccc;
+    padding: 1rem 0;
+}
+
+/*
+=====================
+Contact Section Style
+=====================
+*/
+
+.contact .row{
+    display: flex;
+    background: var(--black);
+    flex-wrap: wrap;
+    gap: 1rem;
+}
+.contact .row .map{
+    flex: 1 1 45rem;
+    padding-top: 4.5rem;
+    width: 100%;
+}
+.contact .row form{
+    flex: 1 1 45rem;
+    padding: 2rem 3rem;
+    text-align: center;
+}
+.contact .row form h3{
+    text-transform: uppercase;
+    font-size: 3.5rem;
+    color: #fff;
+}
+.contact .row form .inputbox{
+    display: flex;
+    align-items: center;
+    margin-top: 1rem;
+    margin-bottom: 1rem;
+    background: var(--black);
+    border: var(--border);
+}
+.contact .row form .inputbox span{
+    color: #fff;
+    font-size: 2rem;
+    padding: 2rem;
+}
+.contact .row form .inputbox input{
+    width: 100%;
+    color: #fff;
+    font-size: 1.7rem;
+    text-transform: none;
+    background: none;
+}
+
+.contact .row form .grid{
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(10rem, 1fr));
+    gap: 1.5rem;
+}
+
+.contact .row form .inputbox textarea{
+    width: 100%;
+    columns: auto;
+    height: 18rem;
+    padding: 1rem;
+    color: #fff;
+    font-size: 1.7rem;
+    text-transform: none;
+    background: none;
+    resize: none;
+}
+
